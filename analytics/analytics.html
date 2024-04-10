@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    div {
+        padding: 50px;
+    }
+
+    #main {
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #left {
+        background-color: rgb(76, 76, 119);
+        height: 600px;
+        width: 300px;
+    }
+
+    #right {
+        padding: 0;
+    }
+
+    #main2 {
+        padding: 0;;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main2 #block1 {
+        background-color: grey;
+        height: 100px;
+        width: 290px;
+        margin: 5px;
+    }
+
+    #main2 #block2 {
+        background-color: grey;
+        height: 250px;
+        width: 390px;
+        margin: 5px;
+    }
+
+
+    header {
+        background-color: grey;
+        margin: 0px 5px 5px 5px;
+        padding: 70px;
+    }
+
+    footer {
+        background-color: grey;
+        margin: 5px;
+        padding: 40px;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="block1"></div>
+        </div>
+        <div id="right">
+            <header></header>
+            <div id="main2">
+                <div id="block1"></div>
+                <div id="block1"></div>
+                <div id="block1"></div>
+                <div id="block1"></div>
+            </div>
+            <div id="main2">
+                <div id="block2"></div>
+                <div id="block2"></div>
+                <div id="block2"></div>
+            </div>
+            <footer></footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
