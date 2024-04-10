@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+div {
+    background-color: #dededd;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+}
+
+#row-one {
+    display: flex;
+    gap: 10px;
+}
+
+#row-one>div {
+    height: 35px;
+    margin: 5px 0px;
+}
+
+#row-two {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+#row-two>div {
+    height: 100px;
+}
+
+#row-two>div:first-child {
+    flex: 1;
+}
+
+#row-two>div:last-child {
+    flex: 1;
+}
+
+#row-three {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+#row-three>div:nth-child(1) {
+    height: 50px;
+    flex: 1;
+}
+#row-three>div:nth-child(2) {
+    flex: 1;
+}
+
+#two-blocks {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    background-color: white;
+}
+
+#two-blocks>div:nth-child(1) {
+    margin: 5px 1px 5px 0;
+    height: 45px;
+}
+
+#two-blocks>div:nth-child(2) {
+    margin: 5px 0 5px 1px;
+    height: 45px;
+}
+
+section {
+    margin: 0px;
+}
+
+#row-four {
+    display: flex;
+    gap: 10px;
+}
+
+#row-four>div {
+    height: 50px;
+    margin: 5px 0px;
+}
+
+#row-five {
+    display: flex;
+    gap: 10px;
+}
+
+#row-five>div {
+    height: 100px;
+    flex: 1;
+    margin: 5px 0px;
+}
+
+#row-six {
+    display: flex;
+    gap: 10px;
+}
+
+#row-six>div {
+    height: 35px;
+    margin: 5px 0px;
+}
